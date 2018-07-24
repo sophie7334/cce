@@ -3,9 +3,27 @@
         <head>
             <title>Node.js</title>
             <meta charset="utf-8">
+            <style>
+                h1 {
+                    border : 5px rgb(209, 49, 28) solid;
+                    text-align: center;
+                    padding-bottom: 50px;
+                    background-color:rgb(209, 70, 28);
+                }
+                ol{
+                    border-right :5px rgb(209, 49, 28) solid;
+                    width:100px
+                }
+                body{
+                    background-color:coral;
+                }
+            </style>
         </head>
         <body>
-            <h1><a href="index.html">WEB</a></h1>
+
+            <h1 onclick = "alert('환영합니당!');" ><a href="index.html">WEB</a></h1>
+            <input type="button" value="밤" onclick = "document.querySelector('body').style.backgroundColor='black';">
+            <input type="button" value="낮" onclick = "document.querySelector('body').style.backgroundColor='white';">
             <ol>
                 <li><a href="1.html">HTML</a></li>
                 <li><a href="2.html">CSS</a></li>
